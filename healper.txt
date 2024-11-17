@@ -1,0 +1,28 @@
+
+Virtual Environment
+```````````````````
+ - cd Mealy
+ - cd backend_django
+ - venv\Scripts\activate     
+
+Django
+``````
+ - cd Mealy
+ - cd backend_django
+ - python manage.py runserver
+ - python manage.py makemigrations
+ - python manage.py migrate
+
+React Native
+````````````
+ - cd ..\frontend_mobile
+
+Git
+```
+ - git add .
+ - git commit -m "commit message"
+ - git push
+ - git pull
+ - git fetch origin
+ - git reset --hard origin/main
+ - git clean -fd

@@ -1,6 +1,6 @@
-from django.urls import path, include
+from django.urls import path
 
 urlpatterns = [
-    path('auth/', include('djoser.urls')),  # Include Djoser URLs
-    path('auth/', include('djoser.urls.jwt')),  # Include JWT endpoints
+    # Add your backend-specific endpoints here
+    # Example: path('example/', views.example_view, name='example'),
 ]
